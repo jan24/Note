@@ -10,9 +10,9 @@ def _format_addr(s):
     name, addr = parseaddr(s)
     return formataddr((Header(name, 'utf-8').encode(), addr))
 
-from_addr = '972017427@qq.com'
-password = 'ipvrbqrvplfxbbgg'
-to_addr = '1124908856@qq.com'
+from_addr = '97***427@qq.com'
+password = 'ipv***bbgg'
+to_addr = '112****8856@qq.com'
 smtp_server = 'smtp.qq.com'
 html='''<html>
         	<body>
@@ -54,9 +54,9 @@ finally:
 #coding=utf-8
 import smtplib
 from email.mime.text import MIMEText
-msg_from='972017427@qq.com'          #发送方邮箱
-passwd='ipvrbqrvplfxbbgg'                 #填入发送方邮箱的授权码
-msg_to='1124908856@qq.com'             #收件人邮箱
+msg_from='97****27@qq.com'          #发送方邮箱
+passwd='ipvr****lfxbbgg'                 #填入发送方邮箱的授权码
+msg_to='112****56@qq.com'             #收件人邮箱
                             
 subject="python mail test"               #主题     
 content="hello python"
