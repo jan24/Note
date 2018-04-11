@@ -11,7 +11,7 @@ def _format_addr(s):
     return formataddr((Header(name, 'utf-8').encode(), addr))
 
 from_addr = '97***427@qq.com'
-password = 'ipv***bbgg'
+password = 'ipv***bbgg'  #qq邮箱授权码，并非是qq登录密码
 to_addr = '112****8856@qq.com'
 smtp_server = 'smtp.qq.com'
 html='''<html>
